@@ -1,4 +1,4 @@
-FROM openjdk:8-jre-alpine
+FROM openjdk:10-jre-slim
 
 RUN apk add --no-cache ca-certificates curl tini \
  && mkdir -p /opt \
